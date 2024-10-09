@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+           border: 3px solid white; 
+           height: 150vh;
+          background-color: white;
+          border-radius: 20px;
+          margin-top:60px;
+          margin-left: 80px;
+          margin-right: 80px;
+          
+        }
+        body{
+            background-color: rgb(235, 195, 235);
+        }
+#nav{
+    display: flex;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    gap:50px;
+    font-size: small;
+    justify-content: center;
+    margin-left: 40%;
+    :hover
+    {
+        color: purple;
+        border-bottom: 1px solid purple;
+        box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    }
+    cursor: pointer;
+    font-weight:bold;
+    margin-top: 40px;
+}
+section{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: small;
+    margin-left: 200px;
+    margin-top: 80px;
+    margin-bottom: 50px;
+  
+}
+h1{
+    font-size: 30px;
+}
+#new{
+    font-weight: bold;   
+}
+img{
+   height: 240px;
+   float: right;
+transform: translate(40px,-160px);
+margin-right: 180px;
+   
+ 
+}
+#Contact{
+    border-radius: 5px;
+    background-color: rgb(158, 32, 158);
+    height: 40px;
+    width: 150px;
+    margin-top: 20px;
+    color: white;
+    border-color: rgb(158, 32, 158);
+    font-size: 16px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+ul{
+    :hover{
+        color: purple;
+    }
+}
+li{
+    list-style: none;
+}
+.tracking-in-contract-bck,p {
+	-webkit-animation: tracking-in-contract-bck 1s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+	        animation: tracking-in-contract-bck 1s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+}
+ @-webkit-keyframes tracking-in-contract-bck {
+  0% {
+    letter-spacing: 1em;
+    -webkit-transform: translateZ(400px);
+            transform: translateZ(400px);
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.6;
+  }
+  100% {
+    -webkit-transform: translateZ(0);
+            transform: translateZ(0);
+    opacity: 1;
+  }
+}
+@keyframes tracking-in-contract-bck {
+  0% {
+    letter-spacing: 1em;
+    -webkit-transform: translateZ(400px);
+            transform: translateZ(400px);
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.6;
+  }
+  100% {
+    -webkit-transform: translateZ(0);
+            transform: translateZ(0);
+    opacity: 1;
+  }
+}
+    </style>
+</head>
+<body>  
+
+    <div>
+        <nav id="nav">
+            <li id="a">About</li>
+            <li id="b">Home</li>
+            <li id="c">Skills</li>
+            <li id="d">Services</li>
+            <li id="e">Portfolio</li>
+            <li id="f">Contact me</li>
+        </nav>
+        <section id="tracking-in-contract-bck">
+
+<h1 class="text-1">Hi, I'm Alexa</h1>
+<h1 class="text-2">Frontend developer</h1>
+<h1 class="text-3">react developer</h1>
+
+<img src="../Desktop/userprofile.jpg">
+
+<p class="tracking-in-contract-bck">Frontend Developer</p>
+
+<p>High level experience in web design and development<br>
+     knowledge, producing quality work</p>
+
+<button id="Contact">Contact me</button>
+<p style="font-size: 30px; animation: none; margin-top: 80px;">About</p>
+<p style="animation: none; font-size: 26px; ">Skills </p>
+<p style="line-height: 5px;">html</p>
+<p style="line-height: 5px;">css</p>
+<p style="line-height: 5px;">javascript</p>
+<p style="line-height: 5px;">react</p>
+<p style="line-height: 5px;">bootstrap</p>
+</div>
+</body>
+</html>
